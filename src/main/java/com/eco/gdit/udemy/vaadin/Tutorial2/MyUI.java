@@ -54,10 +54,8 @@ public class MyUI extends UI {
 		Validators validators = new Validators();
         @SuppressWarnings("unused")
 		Navigation navigation = new Navigation();
-        JSCoding jsCoding = new JSCoding();
-        
-        
-        
+        @SuppressWarnings("unused")
+		JSCoding jsCoding = new JSCoding();
         
         //layouts.myVerticalLayout(this);        
         //layouts.myHorizontalLayout(this);
@@ -67,15 +65,18 @@ public class MyUI extends UI {
         //layouts.myPanel(this);
         
         //dataBinding.myDataBinding(this);
+        
         //validators.myValidator(this);
         
         //navigation.myNavigation(this);
+        
         //myGrid();
+        
         //myGridBinding();
         
         //myGridSelectionsSS();
         
-        jsCoding.execute(this);
+        //jsCoding.execute(this);
         
         
     }
@@ -235,7 +236,8 @@ public class MyUI extends UI {
     	this.setContent(horizontalLayout);
     }
     
-    private void myGridSelectionsSS(){
+    @SuppressWarnings("unused")
+	private void myGridSelectionsSS(){
     	//Single Selection
     	Grid grid; 
     	List<Student> myStudents = new ArrayList<>();
